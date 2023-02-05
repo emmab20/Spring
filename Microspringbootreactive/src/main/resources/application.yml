@@ -1,0 +1,17 @@
+spring:
+  security:
+    oauth2:
+      client:
+        registration:
+          google:
+            client-id: 1067646330613-h4726odvd218duntqlv76bs93ojaj2m8.apps.googleusercontent.com
+            client-secret: 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
+  webflux:
+    hiddenmethod:
+      filter:
+        enabled: true             
+server:
+  ssl:
+    key-store: classpath:secure.p12
+    key-store-password: password
+    key-password: password
